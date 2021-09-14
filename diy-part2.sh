@@ -13,5 +13,5 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.66/g' package/base-files/files/bin/config_generate
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-# git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 # git clone https://github.com/rkongzy/luci-app-zerotier.git package/luci-app-zerotier
